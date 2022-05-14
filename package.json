@@ -11,6 +11,9 @@
     "not dead"
   ],
   "devDependencies": {
-    "@astronomersiva/lego": "^3.1.1"
+    "@astronomersiva/lego": "^3.2.0"
+  },
+  "resolutions": {
+    "nunjucks": "^3.2.2"
   }
 }

@@ -7,25 +7,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" id="cvio-fonts-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext" type="text/css" media="all">
     <link href="/static/css/styles.css" rel="stylesheet">
-    {% set current = "index" %}
+    {% set current = "blogs" %}
   </head>
   <body class="home">
     {% include "nav.html" %}
     <section class="main-section">
-      <div class="avatar">
-        <img src="/static/images/vivek.png">
-      </div>
       <div class="small-intro">
-        Hello, வணக்கம் <br/>
-        I'm <span class="color-light"> Kandha Vivek Raj </span>, FrontEnd Engineer
+        Blogs
+        <p class="color-dark mt-50" style="line-height: 2;">
+          Something cooking, wait for it ♥
+        <p>
       <div>
     </section>
-    <section class="desc-section">
-      <span id="typed-text"></span>
-      <span id="typed-text-color" class="color-light" style="margin-left: 1rem;"></span>
-      <span id="cursor" class="cursor">&nbsp;</span>
-    </section>
-    {% include "footer.html" %}
   </body>
-  <script src="/static/js/typing.js"></script>
 </html>

@@ -1,0 +1,25 @@
+<header class="header">
+    <nav class="top-nav">
+      <a class="name" href="/">
+        <span class="first-name">Kandha</span>
+        <span>Vivek Raj</span>
+      </a>
+    </nav>
+    <nav class="top-nav top-left-nav">
+      <a class="name {% if current == "index" %}active{% endif %}" href="/">
+        <span>Home</span>
+      </a>
+      <a class="name {% if current == "blogs" %}active{% endif %}" href="/blogs">
+        <span>Blogs</span>
+      </a>
+      <a class="name {% if current == "talks" %}active{% endif %}" href="/talks">
+        <span>Talks</span>
+      </a>
+      <a class="name {% if current == "projects" %}active{% endif %}" href="/projects">
+        <span>Projects</span>
+      </a>
+      <a class="name {% if current == "about" %}active{% endif %}" href="/about">
+        <span>About</span>
+      </a>
+    </nav>
+</header>
