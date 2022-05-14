@@ -1,0 +1,12 @@
+<article class="item">
+  <a class="url" href="{{ post.link }}/" target="_blank">
+    {% if post.imgPath %}
+      <img src="{{ post.imgPath}}" class="img"/>
+    {% endif %}
+    <p class="text-muted"><small>{{ post.date | date("MMM YYYY") }}</small></p>
+    <h3 class="title color-light">
+      {{ post.name }}
+    </h3>
+    <p class="desc text-muted">{{post.description}}</p>
+  </a>
+</article>
